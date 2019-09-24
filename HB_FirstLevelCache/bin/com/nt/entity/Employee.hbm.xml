@@ -1,0 +1,20 @@
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<!-- <class name="com.nt.entity.Employee" table="Employee">
+		<id name="eno" column="eid" length="20" type="int" />
+		<property name="ename" column="ename" length="20" type="string" />
+		<property name="job" column="desg" length="20" type="string" />
+		<property name="salary" column="salary" length="20" type="float" />
+	</class> -->
+	
+	<class name="com.nt.entity.Employee" table="EMP">
+		<id name="eno" column="EMPNO" length="20" type="int" />
+		<property name="ename" column="ENAME" length="20" type="string" />
+		<property name="job" column="JOB" length="20" type="string" />
+		<property name="salary" column="SAL" length="20" type="float" />
+	</class>
+	
+</hibernate-mapping>

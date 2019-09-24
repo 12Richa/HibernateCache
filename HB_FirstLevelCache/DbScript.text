@@ -1,0 +1,1 @@
+ create table Employee(eid number(4) primary key,ename varchar2(20),desg varchar2(20),salary number(10));
